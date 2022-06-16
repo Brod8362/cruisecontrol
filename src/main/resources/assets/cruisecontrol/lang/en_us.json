@@ -1,0 +1,6 @@
+{
+  "key.cruisecontrol.toggle": "Toggle Cruise Control",
+  "category.cruisecontrol.bindings": "Cruise Control Bindings",
+  "cruisecontrol.enabled": "Cruise Control §aENABLED§r",
+  "cruisecontrol.disabled": "Cruise Control §4DISABLED§r"
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "pw.byakuren.cruisecontrol.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CruiseMovementMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

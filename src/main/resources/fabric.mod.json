@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "cruisecontrol",
+  "version": "${version}",
+  "name": "Cruisecontrol",
+  "description": "Multitask while moving",
+  "authors": [
+    "Brod8362"
+  ],
+  "contact": {
+    "website": "https://github.com/Brod8362"
+  },
+  "license": "MIT",
+  "icon": "assets/cruisecontrol/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "pw.byakuren.cruisecontrol.client.CruiseControlClient"
+    ],
+    "main": [
+      "pw.byakuren.cruisecontrol.CruiseControl"
+    ]
+  },
+  "mixins": [
+    "cruisecontrol.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19"
+  }
+}
